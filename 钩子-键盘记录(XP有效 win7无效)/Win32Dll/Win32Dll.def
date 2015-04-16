@@ -1,0 +1,10 @@
+LIBRARY	"Win32Dll"
+DESCRIPTION  'win32 Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here
+    
+	 InstallHook @1
+	 UnHook
+	 UnLowHook
+	 InstallLowHook    

@@ -1,0 +1,8 @@
+11-Time
+   MessageBox(NULL, TEXT("You have 10 seconds to respond"), 
+      g_szCaption, MB_OK);
+之后没有WaitForThreadpoolTimerCallbacks函数来等待一个计时器完成，为什么程序不会继续执行CloseThreadpoolTimer(lpTimer);来释放计时器，而是等待计时器倒计时完毕？
+
+
+互斥量-两个相同的程序不能同时打开:
+代码中的scanf_s为什么不能够正常读入数据？
